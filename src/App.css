@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.filters {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.country {
+  border: 1px solid #ddd;
+  padding: 1em;
+  width: 200px;
+  text-align: left;
+}
+
+.flag {
+  width: 100%;
+  height: auto;
+}
